@@ -1,0 +1,30 @@
+{
+  "name": "assignment-2-headers-and-stubs",
+  "version": "1.0.0",
+  "description": "COS 110 Assignment 2 - Headers and Stubs for Database Implementation",
+  "main": "main.cpp",
+  "scripts": {
+    "build": "make",
+    "clean": "make clean",
+    "test": "make && valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./main",
+    "valgrind": "valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwiftTuition/Assignment-2-Headers-and-Stubs.git"
+  },
+  "keywords": [
+    "cpp",
+    "database",
+    "assignment",
+    "cos110",
+    "headers",
+    "stubs"
+  ],
+  "author": "Swift Tuition <admin@swifttuition.co.za>",
+  "license": "MIT",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
