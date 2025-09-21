@@ -11,6 +11,24 @@
 #include <iostream>
 
 int main() {
+    //testing element hireachy
+    CharacterElement cElement("kayana");
+    std::cout<<(cElement == "k" ? "true" : "false")<<std::endl;
+    cElement("H");
+    std::cout<<cElement<<std::endl;
+    std::string s = cElement;
+    std::cout<<cElement<<std::endl;
+
+    IntegerElement iElement("kayana");
+    IntegerElement iElement2("50");
+    std::cout<<iElement<<" "<<iElement2<<std::endl;
+    std::cout<<(iElement2 == "51" ? "true" : "false" )<<std::endl;
+    iElement("50"); std::cout<<iElement<<std::endl;
+
+
+
+
+
     std::cout << "Basic compilation test successful!" << std::endl;
     return 0;
 }

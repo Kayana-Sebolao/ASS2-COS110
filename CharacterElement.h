@@ -8,7 +8,7 @@ class CharacterElement : public Element
 {
 private:
     char data;
-    char convert(std::string str);
+    static char convert(std::string str);
     virtual std::ostream& print(std::ostream& out) const;
 
 public:

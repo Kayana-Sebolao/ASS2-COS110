@@ -8,7 +8,7 @@ class IntegerElement : public Element
 {
 private:
     int data;
-    int convert(std::string str);
+    static int convert(std::string str);
     virtual std::ostream& print(std::ostream& out) const;
 
 public:

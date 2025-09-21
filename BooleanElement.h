@@ -8,7 +8,7 @@ class BooleanElement : public Element
 {
 private:
     bool data;
-    bool convert(std::string str);
+    static bool convert(std::string str);
     virtual std::ostream& print(std::ostream& out) const;
 
 public:

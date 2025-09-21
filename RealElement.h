@@ -8,7 +8,7 @@ class RealElement : public Element
 {
 private:
     float data;
-    float convert(std::string str);
+    static float convert(std::string str);
     virtual std::ostream& print(std::ostream& out) const;
 
 public:
