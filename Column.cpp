@@ -8,20 +8,30 @@
 Column::Column(std::string columnName, int columnSize) : columnName(columnName), columnSize(columnSize) {
 }
 
+
 Column* Column::createColumnFromSchema(std::string schema) {
-    return NULL;
+  
+        return NULL;
+
 }
 
 Column::operator int() const {
-    return 0;
+    return this->columnSize;
 }
 
 Column::operator std::string() const {
-    return "";
+    return this->columnName;
 }
 
 bool Column::operator==(const Column& other) const {
-    return false;
+    int result = 0;
+    if(this->columnName == other.columnName && this->columnSize == other.columnSize && this->){
+        result = 2;
+    }
+    //the last comparison:
+    for(int i =0;  < ths->columnSize; i++){
+        this->c
+    }
 }
 
 bool Column::operator!=(const Column& other) const {
